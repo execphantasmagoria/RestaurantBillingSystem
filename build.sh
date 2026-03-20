@@ -100,7 +100,7 @@ echo
 
 if [ "$HAS_NINJA" -eq 1 ]; then
     set -x
-    cmake --build . -- -j
+    cmake --build . -j
     set +x
 else
     set -x
