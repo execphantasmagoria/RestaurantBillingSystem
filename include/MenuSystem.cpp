@@ -21,12 +21,15 @@ void MenuSystem::showMainMenu()
         {
             case 1:
                 // showNewOrderMenu();
+                std::cout<<"New Order Menu coming soon!"<<std::endl;
                 break;
             case 2:
                 // showOrderListMenu();
+                std::cout<<"Order List Menu coming soon!"<<std::endl;
                 break;
             case 3:
                 // showFoodMenu();
+                std::cout<<"Food Menu coming soon!"<<std::endl;
                 break;
             case 4:
                 std::cout<<"Thank you for using the Restaurant Billing System!"<<std::endl;

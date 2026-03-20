@@ -4,7 +4,7 @@
 
 Order::Order() : _menu(nullptr)
 {
-    orderID = rand() % 1000; // Generate a random order ID
+    orderID = rand() % 1000;
 }
 
 Order::~Order()
