@@ -123,5 +123,5 @@ echo "Compiler   : $(if [ -n "$CMAKE_C_COMPILER" ]; then echo "$COMPILER_DESC"; 
 echo "Build Dir  : $(realpath .)"
 echo -e ""
 echo "You can run the built executable from this directory via:"
-echo -e "${CYAN}  ./RestaurantBillingSystem${RESET}"
+echo -e "${CYAN}  .$(realpath .)/RestaurantBillingSystem${RESET}"
 echo -e "${BOLD}============================================${RESET}"
