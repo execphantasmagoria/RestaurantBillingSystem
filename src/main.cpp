@@ -36,7 +36,6 @@ Each FOOD ITEM should have the following information.
 // #include "include/Order.hpp"
 #include "MenuSystem.hpp"
 
-// ASCII Art Header
 int main(){
     MenuSystem menu;
 
